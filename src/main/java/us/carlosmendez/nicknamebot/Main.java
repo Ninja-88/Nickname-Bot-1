@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws LoginException {
         new JDABuilder(AccountType.BOT)
-                .setToken("NTQxMzU3NjQ3MDczNjQwNDQ4.DzeSIA.DRveIrtmJ6R4lmn15RLIgcPnOR0")
+                .setToken("")
                 .addEventListeners(new CommandNickname())
                 .build();
     }
